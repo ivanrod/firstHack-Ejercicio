@@ -1,0 +1,109 @@
+body{	
+	font-family: elegant_luxmager;
+}
+/*Header Nav bar*/
+.navBar{
+	width: 100%;
+	height: 100px;
+}
+.navBar a{
+	text-decoration: none;
+	color:black;
+	font-size: 1.3em;
+}
+.navBar a:hover{
+	text-decoration:underline;
+}
+.navBarLeft{
+	float:left;
+
+}
+.navBarLeft ul li{
+	list-style-type: none;
+	display:inline;
+	margin-left: 50px;
+}
+.navBarLeft img{display: inline-block;}
+.navBarLeft ul{
+	display: inline-block; 
+	line-height: 103px;
+	margin-left: 100px;
+}
+.ulRight{
+	float: right;
+	font-size: 2.5em;
+	margin-right: 30px;
+}
+.navBar ul li{
+	display:inline-block; 
+}
+
+/*Header Image*/
+.headerContainer{
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+.textHeader {
+	display:inline-block;
+	width:40%;
+}
+.headerContainer h1{
+
+	margin:auto;
+	font-size: 4em;
+}
+.headerContainer h2{
+	margin:auto;
+	font-size: 3em;
+}
+
+/*Portfolio*/
+.portfolio {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 10%;
+}
+.portfolio li>img{
+	width:300px;
+	margin: 30px 30px;
+}
+
+.portfolio ul li{
+	list-style-type: none;
+	display:inline;
+}
+
+/*Footer*/
+.contact {
+	background-color: black;
+	color:white;
+}
+.contact ul{
+	display: inline-block;
+	margin: 11%;
+}
+.contact li:first-child a{
+	color:grey;
+}
+.contact li:first-child{
+	margin-bottom: 20px;
+}
+.contact li{
+	margin-bottom: 10px;
+}
+.contact a{
+	color:white;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+.contact p{
+	color:grey;
+	font-size:1.2em;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
